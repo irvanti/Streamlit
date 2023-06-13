@@ -13,5 +13,3 @@ youtube_transcript_api
 yfinance
 patsy
 statsmodels
-PIL
-Image
