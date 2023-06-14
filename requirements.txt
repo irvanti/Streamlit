@@ -2,3 +2,4 @@ altair
 pandas
 yfinance
 pillow
+streamlit
