@@ -1,5 +1,5 @@
 altair
 pandas
 yfinance
-pillow
+Pillow
 streamlit
