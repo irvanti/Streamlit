@@ -55,7 +55,5 @@ data2 = pd.read_excel('/Users/mahfu/Downloads/dari-as-sampai-rusia-ini-negara-tu
 st.header("Negara-negara tujuan ekspor Indonesia")
 st.bar_chart(data=data2,  x='Negara', y='Nilai')
 
-st.header("Kesimpulan")
-'''Negara Indonesia dengan produktivitas kopinya dapat berkembang di pasar global bahkan di era pandemi
-sekaligus, namun naik atau turun nya nilai ekspor tidak terlalu di pengaruhi oleh tingkat produksi ekspor tersebut'''
+
 
