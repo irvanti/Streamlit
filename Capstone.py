@@ -11,7 +11,7 @@ with st.sidebar:
     st.write("Tahun 2017-2022")
 
 
-image = Image.open('/Users/mahfu/Downloads/buah-kopi.jpg')
+image = Image.open('buah-kopi.png')
 
 st.title("Analisis Perkembangan Kopi Indonesia di Pasar Global")
 st.caption("oleh : Irvant Ismail")
