@@ -36,14 +36,14 @@ st.bar_chart(data=df,  x='nama_data', y='value')
 didunia yaitu 63,4, diikuti oleh Vietnam, Kolombia, dan Indonesia'''
 df
 
-data = pd.read_excel('data/produksi-kopi-indonesia-meningkat-capai-794-ribu-ton-pada-2022.xlsx')
+data = pd.read_excel('produksi-kopi-indonesia-meningkat-capai-794-ribu-ton-pada-2022.xlsx')
 st.header ("Produksi Kopi Negara Indonesia dari tahun 2017-2022")
 '''Untuk tahun 2017 - 2022 produksi kopi Indonesia mengalami kenaikan, dilansir dari detik.com bahwa mengalami kenaikan karena pandemi
 juga telah berakhir '''
 st.line_chart(data=data, x='Tahun', y='Jumlah(ribu ton)', width=0, height=0, use_container_width=True)
 
 
-data1 = pd.read_excel('data/kinerja-ekspor-kopi-indonesia-meningkat-pada-2021.xlsx')
+data1 = pd.read_excel('kinerja-ekspor-kopi-indonesia-meningkat-pada-2021.xlsx')
 st.header ("Rata-rata volume eksport kopi di Indonesia Periode 2011-2021")
 st.line_chart(data=data1, x='date', y='Volume')
 '''Pada grafik diatas kita bisa lihat Volume eksport kopi indonesia pada 2017 ke 2018 mengalami penurunan
@@ -52,7 +52,7 @@ st.header ("Nilai Eksport Kopi Indonesia Periode 2011-2021")
 st.bar_chart(data=data1, x='date', y= 'Nilai')
 ''' Nilai Eksport kopi Indonesia juga selaras dengan volume produksinya'''
 
-data2 = pd.read_excel('data/dari-as-sampai-rusia-ini-negara-tujuan-ekspor-kopi-indonesia-pada-2022 (1).xlsx')
+data2 = pd.read_excel('dari-as-sampai-rusia-ini-negara-tujuan-ekspor-kopi-indonesia-pada-2022 (1).xlsx')
 st.header("Negara-negara tujuan ekspor Indonesia")
 st.bar_chart(data=data2,  x='Negara', y='Nilai')
 
