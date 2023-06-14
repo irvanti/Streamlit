@@ -57,5 +57,5 @@ st.bar_chart(data=data2,  x='Negara', y='Nilai')
 
 st.header("Kesimpulan")
 '''Negara Indonesia dengan produktivitas kopinya dapat berkembang di pasar global bahkan di era pandemi
-sekaligus, dan kenaikan nilai ekspor juga sangat dipengaruhi oleh tingkat produksi ekpor tersebut'''
+sekaligus, namun naik atau turun nya nilai ekspor tidak terlalu di pengaruhi oleh tingkat produksi ekspor tersebut'''
 
