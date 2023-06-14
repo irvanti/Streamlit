@@ -28,27 +28,32 @@ Hal ini membuat produk kita memiliki keunggulan dalam volume produksi dibandingk
 Lalu Bagaimana Pekembangan Kopi kita di Pasar Global?'''
 
 
-df = pd.read_excel('/Users/mahfu/Downloads/brasil-rajai-produksi-kopi-pada-2020-indonesia-urutan-berapa.xlsx')
+df = pd.read_excel('brasil-rajai-produksi-kopi-pada-2020-indonesia-urutan-berapa.xlsx')
 st.header ("TOP 9 Negara Produksi Kopi di Dunia")
 st.bar_chart(data=df,  x='nama_data', y='value')
 '''Untuk data diatas pada tahun 2020 dapat dilihat bahwa Brazil berada pada tingkat Produksi Terbesar
 didunia yaitu 63,4, diikuti oleh Vietnam, Kolombia, dan Indonesia'''
 df
 
-data = pd.read_excel('/Users/mahfu/Downloads/produksi-kopi-indonesia-meningkat-capai-794-ribu-ton-pada-2022.xlsx')
+data = pd.read_excel('produksi-kopi-indonesia-meningkat-capai-794-ribu-ton-pada-2022.xlsx')
 st.header ("Produksi Kopi Negara Indonesia dari tahun 2017-2022")
 '''Untuk tahun 2017 - 2022 produksi kopi Indonesia mengalami kenaikan, dilansir dari detik.com bahwa mengalami kenaikan karena pandemi
 juga telah berakhir '''
 st.line_chart(data=data, x='Tahun', y='Jumlah(ribu ton)', width=0, height=0, use_container_width=True)
 
 
-data1 = pd.read_excel('/Users/mahfu/Downloads/kinerja-ekspor-kopi-indonesia-meningkat-pada-2021.xlsx')
+data1 = pd.read_excel('kinerja-ekspor-kopi-indonesia-meningkat-pada-2021.xlsx')
 st.header ("Rata-rata volume eksport kopi di Indonesia Periode 2011-2021")
 st.line_chart(data=data1, x='date', y='Volume')
 '''Pada grafik diatas kita bisa lihat Volume eksport kopi indonesia pada 2017 ke 2018 mengalami penurunan
 namun 2018-2022 ekspor kita terus mengalami kenaikan yang signifikan bahkan di Era pandemi sekalipun'''
 st.header ("Nilai Eksport Kopi Indonesia Periode 2011-2021")
 st.bar_chart(data=data1, x='date', y= 'Nilai')
+'''Nilai Ekspor kopi indonesia juga selaras dengan volume produksinya
+
+data2 = pd.read_excel('/Users/mahfu/Downloads/dari-as-sampai-rusia-ini-negara-tujuan-ekspor-kopi-indonesia-pada-2022 (1).xlsx')
+st.header("Negara-negara tujuan ekspor Indonesia")
+st.bar_chart(data=data2,  x='Negara', y='Nilai')
 
 st.header("Kesimpulan")
 '''Negara Indonesia dengan produktivitas kopinya dapat berkembang di pasar global bahkan di era pandemi
