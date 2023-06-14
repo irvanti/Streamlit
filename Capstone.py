@@ -29,7 +29,7 @@ Hal ini membuat produk kita memiliki keunggulan dalam volume produksi dibandingk
 Lalu Bagaimana Pekembangan Kopi kita di Pasar Global?'''
 
 
-df = pd.read_excel('data/brasil-rajai-produksi-kopi-pada-2020-indonesia-urutan-berapa.xlsx')
+df = pd.read_excel('brasil-rajai-produksi-kopi-pada-2020-indonesia-urutan-berapa.xlsx')
 st.header ("TOP 9 Negara Produksi Kopi di Dunia")
 st.bar_chart(data=df,  x='nama_data', y='value')
 '''Untuk data diatas pada tahun 2020 dapat dilihat bahwa Brazil berada pada tingkat Produksi Terbesar
